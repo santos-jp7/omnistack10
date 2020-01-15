@@ -71,9 +71,8 @@ module.exports = {
     },
 
     async destroy(request, response){
-        const { github_username } = request.body;
 
-        Dev.deleteOne({ "github_username": github_username }, function(err){
+        Dev.deleteOne({ "github_username": request.params.id }, function(err){
             if(err){
                 return response.json({ error: err})
             }else{
