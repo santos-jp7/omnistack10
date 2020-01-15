@@ -1,0 +1,26 @@
+{
+  "name": "omnistack",
+  "version": "1.0.0",
+  "description": "app omnistack",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santos-jp7/omnistack.git"
+  },
+  "author": "Jean Pierre",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/santos-jp7/omnistack/issues"
+  },
+  "homepage": "https://github.com/santos-jp7/omnistack#readme",
+  "dependencies": {
+    "axios": "^0.19.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.7"
+  }
+}
