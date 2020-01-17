@@ -1,7 +1,6 @@
 {
   "expo": {
-    "name": "mobile",
-    "slug": "mobile",
+    "name": "DevRadar",
     "privacy": "public",
     "sdkVersion": "36.0.0",
     "platforms": [
@@ -23,8 +22,13 @@
     "assetBundlePatterns": [
       "**/*"
     ],
-    "ios": {
-      "supportsTablet": true
+    "android": {
+      "package": "com.santosjp7.devradar",
+      "config":{
+        "googleMaps":{
+          "apiKey":"AIzaSyA7nkksCnzZ1HWADGgoL-72IUdvPzDqqYU"
+        }
+      }
     }
   }
 }
